@@ -5,7 +5,7 @@ Request API Access
 ------------------
 
 Drop us an email at api@resy.com and provide us with the name of your
-application a technical contact email address and we'll create your
+application and a technical contact email address and we'll create your
 application and get you started.
 
 Authorization
