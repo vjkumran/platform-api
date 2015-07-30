@@ -290,7 +290,7 @@ End Points
     |       "day": "2015-01-01",                                              |
     |       "deep_link": "resy://resy.com/ReservationDetails?venue_id=1&...", |
     |       "features": [                                                     |
-    |           "Test Venue donates 100% of the proceeds from this table t.." |
+    |           "Test Venue donates 100% of the proceeds from this table ..." |
     |       ],                                                                |
     |       "menu_items": [                                                   |
     |           "Delicious Vegan Burger",                                     |
@@ -298,7 +298,8 @@ End Points
     |       ],                                                                |
     |       "num_seats": 2,                                                   |
     |       "seat_type": "Communal",                                          |
-    |       "time_slot": "19:30:00"                                           |
+    |       "time_slot": "19:30:00",                                          |
+    |       "web_link": "http://resy.com/link?venue_id=1&day=2015-01-01&t..." |
     |   },                                                                    |
     |   "resy_token": "WTYxbM_YsLOcA1cTRZTOp_HHQh5ejxfXq7gUZ4gjqcme8mnbs...", |
     |   "venue": {                                                            |
@@ -338,7 +339,8 @@ End Points
     |           "driving": 1,                                                 |
     |           "walking": 1                                                  |
     |       },                                                                |
-    |       "type": "Vegan Joint"                                             |
+    |       "type": "Vegan Joint",                                            |
+    |       "web_link": "http://resy.com/link?venue_id=1"                     |
     |   }                                                                     |
     | }                                                                       |
     +-------------------------------------------------------------------------+
@@ -462,7 +464,8 @@ End Points
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
     |                   "seat_type": "Communal",                              |
-    |                   "time_slot": "19:30:00"                               |
+    |                   "time_slot": "19:30:00",                              |
+    |                   "web_link": "http://resy.com/link?venue_id=1&day=..." |
     |               }                                                         |
     |           ],                                                            |
     |           "travel_time": {                                              |
@@ -470,7 +473,8 @@ End Points
     |               "driving": 1,                                             |
     |               "walking": 1                                              |
     |           },                                                            |
-    |           "type": "Vegan"                                               |
+    |           "type": "Vegan",                                              |
+    |           "web_link": "http://resy.com/link?venue_id=1"                 |
     |       }                                                                 |
     |   ]                                                                     |
     | }                                                                       |
@@ -528,7 +532,8 @@ End Points
     |                   "min_seats": 2,                                       |
     |                   "max_seats": 4,                                       |
     |                   "seat_type": "Communal",                              |
-    |                   "time_slot": "19:30:00"                               |
+    |                   "time_slot": "19:30:00",                              |
+    |                   "web_link": "http://resy.com/link?venue_id=1&day=..." |
     |               }                                                         |
     |           ],                                                            |
     |           "travel_time": {                                              |
@@ -536,7 +541,8 @@ End Points
     |               "driving": 1,                                             |
     |               "walking": 1                                              |
     |           },                                                            |
-    |           "type": "Vegan"                                               |
+    |           "type": "Vegan",                                              |
+    |           "web_link": "http://resy.com/link?venue_id=1"                 |
     |       }                                                                 |
     |   ]                                                                     |
     | }                                                                       |
@@ -674,10 +680,12 @@ End Points
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
     |                   "seat_type": "Communal",                              |
-    |                   "time_slot": "19:30:00"                               |
+    |                   "time_slot": "19:30:00",                              |
+    |                   "web_link": "http://resy.com/link?venue_id=1&day=..." |
     |               }                                                         |
     |           ],                                                            |
-    |           "type": "Vegan"                                               |
+    |           "type": "Vegan",                                              |
+    |           "web_link": "http://resy.com/link?venue_id=1"                 |
     |       }                                                                 |
     |   ]                                                                     |
     | }                                                                       |
@@ -729,6 +737,7 @@ End Points
     |   },                                                                    |
     |   "name": "Test Venue",                                                 |
     |   "price_range_id": 4,                                                  |
-    |   "type": "Vegan"                                                       |
+    |   "type": "Vegan",                                                      |
+    |   "web_link": "http://resy.com/link?venue_id=1"                         |
     | }                                                                       |
     +-------------------------------------------------------------------------+
