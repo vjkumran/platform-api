@@ -446,6 +446,10 @@ End Points
     | {                                                                       |
     |   "available": [                                                        |
     |       {                                                                 |
+    |           "contact": {                                                  |
+    |               "phone_number": "2125551212",                             |
+    |               "url": "http://resy.com/"                                 |
+    |           },                                                            |
     |           "deep_link": "resy://resy.com/VenueDetails?venue_id=1",       |
     |           "images": [                                                   |
     |               "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"  |
@@ -512,6 +516,10 @@ End Points
     | {                                                                       |
     |   "available": [                                                        |
     |       {                                                                 |
+    |           "contact": {                                                  |
+    |               "phone_number": "2125551212",                             |
+    |               "url": "http://resy.com/"                                 |
+    |           },                                                            |
     |           "deep_link": "resy://resy.com/VenueDetails?venue_id=1",       |
     |           "images": [                                                   |
     |               "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"  |
@@ -662,6 +670,10 @@ End Points
     | {                                                                       |
     |   "available": [                                                        |
     |       {                                                                 |
+    |           "contact": {                                                  |
+    |               "phone_number": "2125551212",                             |
+    |               "url": "http://resy.com/"                                 |
+    |           },                                                            |
     |           "deep_link": "resy://resy.com/VenueDetails?venue_id=1",       |
     |           "images": [                                                   |
     |               "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"  |
@@ -723,6 +735,10 @@ End Points
     | Response                                                                |
     +-------------------------------------------------------------------------+
     | {                                                                       |
+    |   "contact": {                                                          |
+    |       "phone_number": "2125551212",                                     |
+    |       "url": "http://resy.com/"                                         |
+    |   },                                                                    |
     |   "deep_link": "resy://resy.com/VenueDetails?venue_id=1",               |
     |   "id": 1,                                                              |
     |   "images": [                                                           |
