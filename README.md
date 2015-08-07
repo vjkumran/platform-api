@@ -812,7 +812,7 @@ End Points
     |                   "type": "Communal"                                    |
     |               },                                                        |
     |               "deep_link": "resy://resy.com/ReservationDetails?ven...", |
-    |               "time_slot": "19:30:00",                                  |
+    |               "time_slot": "19:30:00"                                   |
     |           }                                                             |
     |       ],                                                                |
     |       "tagline": "Yummy food!",                                         |
