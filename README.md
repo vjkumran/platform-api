@@ -49,8 +49,8 @@ secret. The secret should never be exposed as part of an URL query string
 parameter or in Javascript. To keep the secret protected, the exchange
 should occur server-to-server.
 
-When attempting to authenticate the user you can receive the following error
-which will cause the user to be redirected to the specified redirect_uri
+When attempting to authenticate the user, you may receive the following error
+that will cause the user to be redirected to the specified redirect_uri
 (with additional parameters passed) and indicates that your client ID is
 incorrect or your application has been disabled:
 
