@@ -64,6 +64,34 @@ to the specified redirect_uri with additional parameters passed:
     error=code_gen_error
     error_message=There was a problem while trying to log you in.
 
+Using cURL
+----------
+
+The following is an example of a cURL request for posting data to the Platform
+API:
+
+```bash
+/usr/bin/curl \
+    -H 'Authorization: PlatformAPI client_id="[Your client ID]"' \
+    -X POST \
+    -d "param_name_1=param_value_1" \
+    -d "param_name_2=param_value_2" \
+    [...] \
+    https://api.resy.com/[end point]
+```
+
+The "[...]" above denotes the ability to send in as many parameters as needed
+using the -d option.  Here is a request to book a reservation for a user:
+
+```bash
+/usr/bin/curl \
+    -H 'Authorization: PlatformAPI client_id="[Your client ID]"' \
+    -X POST \
+    -d "access_token=[The user's access_token]" \
+    -d "resy_token=[The resy_token for the reservation]" \
+    https://api.resy.com/1/reservation
+```
+
 HTTP Response Codes
 -------------------
 
@@ -562,6 +590,51 @@ End Points
     |           "web_link": "https://resy.com/link?venue_id=1"                |
     |       }                                                                 |
     |   ]                                                                     |
+    | }                                                                       |
+    +-------------------------------------------------------------------------+
+
+# /1/user
+
+### POST
+
+    Creates a new user account.  The "create user" permission must be
+    activated on your account before you can use this end point.
+
+    +-------------------------------------------------------------------------+
+    | Parameter Name    | Req (Y/N) | Details                                 |
+    |-------------------|-----------|-----------------------------------------|
+    | first_name        |     Y     |                                         |
+    |-------------------|-----------|-----------------------------------------|
+    | last_name         |     Y     |                                         |
+    |-------------------|-----------|-----------------------------------------|
+    | mobile_number     |     Y     |                                         |
+    |-------------------|-----------|-----------------------------------------|
+    | email_address     |     Y     |                                         |
+    |-------------------|-----------|-----------------------------------------|
+    | bio               |     N     |                                         |
+    |-------------------|-----------|-----------------------------------------|
+    | image             |     N     |                                         |
+    +-------------------------------------------------------------------------+
+
+    +-------------------------------------------------------------------------+
+    | Response Code | Details                                                 |
+    |---------------|---------------------------------------------------------|
+    | 200           | If the user is being updated.                           |
+    |---------------|---------------------------------------------------------|
+    | 201           | If the user is being created.                           |
+    |---------------|---------------------------------------------------------|
+    | 400           |                                                         |
+    |---------------|---------------------------------------------------------|
+    | 409           |                                                         |
+    |---------------|---------------------------------------------------------|
+    | 419           |                                                         |
+    +-------------------------------------------------------------------------+
+
+    +-------------------------------------------------------------------------+
+    | Response                                                                |
+    +-------------------------------------------------------------------------+
+    | {                                                                       |
+    |   "access_token": "abcdefghijklmnopqrstuvwxyz1234567890abcdefghijkl..." |
     | }                                                                       |
     +-------------------------------------------------------------------------+
 
