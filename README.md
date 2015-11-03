@@ -5,7 +5,7 @@ About Resy
 
 The developers behind Resy are craftspeople that hold themselves and their peers to an extremely high but attainable standard for work product (code).  They ship constantly but never sacrifice code quality to meet a deadline.
 
-The Resy application runs at AWS using python3, uWSGI, nginx, MySQL and [tinyAPI](https://github.com/mcmontero/tinyAPI).
+The Resy application runs at AWS using python3, uWSGI, nginx, MySQL, [tinyAPI](https://github.com/mcmontero/tinyAPI) and Django.
 
 API Documentation
 =================
