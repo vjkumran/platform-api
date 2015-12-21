@@ -1,9 +1,9 @@
 About Resy
 ==========
 
-[Resy](http://resy.com/) is a mobile restaurant reservations app on [iOS](https://itunes.apple.com/us/app/resy/id866163372?ls=1&mt=8) and [Android](https://play.google.com/store/apps/details?id=com.resy.android).  The app is for people who love eating at great restaurants but hate hassling for reservations.
+[Resy](http://resy.com/) offers restaurants floor plan, table and customer management, synchronized with a booking widget that works on any browser on any device in the universe. It can be deployed with 3 lines of code (less if you’re using our website builder partner, [Bentobox](https://getbento.com/). Plus, 2-way texting with guests is built-in, eliminating those annoying phone calls; we connect to any POS system in realtime, which sets up both the next generation of payment and loyalty management; we support fully customizable table type merchandizing, including integrated ticketing and events management; we offer a feature called 'Notify', one of several designed to capture guests beyond just those who successfully make a reservation; and we offer direct access to our engineering team for those restaurants with product ideas of their own. We're doing this while lowering the price restaurants pay for their reservations software — in many cases to $0.  You can download the Resy app on [iOS](https://itunes.apple.com/us/app/resy/id866163372?ls=1&mt=8) and [Android](https://play.google.com/store/apps/details?id=com.resy.android).
 
-The developers behind Resy are craftspeople that hold themselves and their peers to an extremely high but attainable standard for work product (code).  They ship constantly but never sacrifice code quality to meet a deadline.
+The developers behind Resy are craftspeople that hold themselves and their peers to an extremely high standard for work product (code).  They ship constantly but never sacrifice code quality to meet a deadline.
 
 The Resy application runs at AWS using python3, uWSGI, nginx, MySQL, [tinyAPI](https://github.com/mcmontero/tinyAPI) and Django.
 
