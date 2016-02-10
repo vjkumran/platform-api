@@ -321,6 +321,12 @@ End Points
     |           "$80 per person",                                             |
     |           "$15 service charge",                                         |
     |           "$5 taxes and fees"                                           |
+    |       ],                                                                |
+    |       "details": [                                                      |
+    |           "resy_fee": 1.23,                                             |
+    |           "service_charge": 4.56,                                       |
+    |           "tax": 7.89,                                                  |
+    |           "total": 12.34                                                |
     |       ]                                                                 |
     |   },                                                                    |
     |   "reservation": {                                                      |
