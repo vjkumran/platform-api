@@ -557,6 +557,11 @@ End Points
     |           "price_range_id": 4,                                          |
     |           "reservations": [                                             |
     |               {                                                         |
+    |                   "cancellation_fee": {                                 |
+    |                       "amount": 25.00,                                  |
+    |                       "applies": true,                                  |
+    |                       "date_cut_off": "2015-01-01T12:34:56Z"            |
+    |                   },                                                    |
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
     |                   "seat_type": "Communal",                              |
@@ -627,6 +632,11 @@ End Points
     |           "price_range_id": 4,                                          |
     |           "reservations": [                                             |
     |               {                                                         |
+    |                   "cancellation_fee": {                                 |
+    |                       "amount": 25.00,                                  |
+    |                       "applies": true,                                  |
+    |                       "date_cut_off": "2015-01-01T12:34:56Z"            |
+    |                   },                                                    |
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
     |                   "min_seats": 2,                                       |
@@ -781,6 +791,11 @@ End Points
     |           "price_range_id": 4,                                          |
     |           "reservations": [                                             |
     |               {                                                         |
+    |                   "cancellation_fee": {                                 |
+    |                       "amount": 25.00,                                  |
+    |                       "applies": true,                                  |
+    |                       "date_cut_off": "2015-01-01T12:34:56Z"            |
+    |                   },                                                    |
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
     |                   "seat_type": "Communal",                              |
