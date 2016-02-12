@@ -557,10 +557,12 @@ End Points
     |           "price_range_id": 4,                                          |
     |           "reservations": [                                             |
     |               {                                                         |
-    |                   "cancellation_fee": {                                 |
-    |                       "amount": 25.00,                                  |
-    |                       "applies": true,                                  |
-    |                       "date_cut_off": "2015-01-01T12:34:56Z"            |
+    |                   "cancellation": {                                     |
+    |                       "fee": {                                          |
+    |                           "amount": 25.00,                              |
+    |                           "applies": true,                              |
+    |                           "date_cut_off": "2015-01-01T12:34:56Z"        |
+    |                       },                                                |
     |                   },                                                    |
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
@@ -632,10 +634,12 @@ End Points
     |           "price_range_id": 4,                                          |
     |           "reservations": [                                             |
     |               {                                                         |
-    |                   "cancellation_fee": {                                 |
-    |                       "amount": 25.00,                                  |
-    |                       "applies": true,                                  |
-    |                       "date_cut_off": "2015-01-01T12:34:56Z"            |
+    |                   "cancellation": {                                     |
+    |                       "fee": {                                          |
+    |                           "amount": 25.00,                              |
+    |                           "applies": true,                              |
+    |                           "date_cut_off": "2015-01-01T12:34:56Z"        |
+    |                       },                                                |
     |                   },                                                    |
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
@@ -695,6 +699,10 @@ End Points
     |                   "allowed": true,                                      |
     |                   "date_credit_cut_off": null,                          |
     |                   "date_refund_cut_off": "2014-12-14T12:34:56Z"         |
+    |                   "fee": {                                              |
+    |                       "amount": 25.00,                                  |
+    |                       "date_cut_off": "2014-12-14T12:34:56Z"            |
+    |                   }                                                     |
     |               },                                                        |
     |               "change": {                                               |
     |                   "allowed": true,                                      |
@@ -791,10 +799,12 @@ End Points
     |           "price_range_id": 4,                                          |
     |           "reservations": [                                             |
     |               {                                                         |
-    |                   "cancellation_fee": {                                 |
-    |                       "amount": 25.00,                                  |
-    |                       "applies": true,                                  |
-    |                       "date_cut_off": "2015-01-01T12:34:56Z"            |
+    |                   "cancellation": {                                     |
+    |                       "fee": {                                          |
+    |                           "amount": 25.00,                              |
+    |                           "applies": true,                              |
+    |                           "date_cut_off": "2015-01-01T12:34:56Z"        |
+    |                       },                                                |
     |                   },                                                    |
     |                   "deep_link": "resy://resy.com/ReservationDetails...", |
     |                   "id": 1,                                              |
