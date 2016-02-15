@@ -77,7 +77,7 @@ API:
     -d "param_name_1=param_value_1" \
     -d "param_name_2=param_value_2" \
     [...] \
-    https://api.resy.com/[end point]
+    https://platform.resy.com/[end point]
 ```
 
 The "[...]" above denotes the ability to send in as many parameters as needed
@@ -89,7 +89,7 @@ using the -d option.  Here is a request to book a reservation for a user:
     -X POST \
     -d "access_token=[The user's access_token]" \
     -d "resy_token=[The resy_token for the reservation]" \
-    https://api.resy.com/1/reservation
+    https://platform.resy.com/1/reservation
 ```
 
 HTTP Response Codes
