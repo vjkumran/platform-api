@@ -543,6 +543,11 @@ End Points
     |               "url": "http://resy.com/"                                 |
     |           },                                                            |
     |           "deep_link": "resy://resy.com/VenueDetails?venue_id=1",       |
+    |           "id": {                                                       |
+    |               "foursquare": "abcdefghijkl",                             |
+    |               "google": "mnopqrstuvwxyz",                               |
+    |               "resy": 1                                                 |
+    |           },                                                            |
     |           "images": [                                                   |
     |               "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"  |
     |           ],                                                            |
@@ -620,6 +625,11 @@ End Points
     |               "url": "http://resy.com/"                                 |
     |           },                                                            |
     |           "deep_link": "resy://resy.com/VenueDetails?venue_id=1",       |
+    |           "id": {                                                       |
+    |               "foursquare": "abcdefghijkl",                             |
+    |               "google": "mnopqrstuvwxyz",                               |
+    |               "id": 1                                                   |
+    |           },                                                            |
     |           "images": [                                                   |
     |               "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"  |
     |           ],                                                            |
@@ -785,6 +795,11 @@ End Points
     |               "url": "http://resy.com/"                                 |
     |           },                                                            |
     |           "deep_link": "resy://resy.com/VenueDetails?venue_id=1",       |
+    |           "id": {                                                       |
+    |               "foursquare": "abcdefghijkl",                             |
+    |               "google": "mnopqrstuvwxyz",                               |
+    |               "resy": 1                                                 |
+    |           },                                                            |
     |           "images": [                                                   |
     |               "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"  |
     |           ],                                                            |
@@ -857,7 +872,11 @@ End Points
     |       "url": "http://resy.com/"                                         |
     |   },                                                                    |
     |   "deep_link": "resy://resy.com/VenueDetails?venue_id=1",               |
-    |   "id": 1,                                                              |
+    |   "id": {                                                               |
+    |       "foursquare": "abcdefghijkl",                                     |
+    |       "google": "mnopqrstuvwxyz",                                       |
+    |       "resy": 1                                                         |
+    |   },                                                                    |
     |   "images": [                                                           |
     |       "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"          |
     |   ],                                                                    |
