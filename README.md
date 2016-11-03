@@ -894,6 +894,54 @@ End Points
     | }                                                                       |
     +-------------------------------------------------------------------------+
 
+# /1/venues
+
+### GET
+
+    Gets a list of all venues.  You must be provisioned for access to this
+    end point.
+
+    +-------------------------------------------------------------------------+
+    | Response Code | Details                                                 |
+    |---------------|---------------------------------------------------------|
+    | 200           |                                                         |
+    |---------------|---------------------------------------------------------|
+    | 419           |                                                         |
+    +-------------------------------------------------------------------------+
+
+    +-------------------------------------------------------------------------+
+    | Response                                                                |
+    +-------------------------------------------------------------------------+
+    | [                                                                       |
+    |   {                                                                     |
+    |     "contact": {                                                        |
+    |         "phone_number": "2125551212",                                   |
+    |         "url": "http://resy.com/"                                       |
+    |     },                                                                  |
+    |     "deep_link": "resy://resy.com/VenueDetails?venue_id=1",             |
+    |     "id": {                                                             |
+    |         "foursquare": "abcdefghijkl",                                   |
+    |         "google": "mnopqrstuvwxyz",                                     |
+    |         "resy": 1                                                       |
+    |     },                                                                  |
+    |     "images": [                                                         |
+    |         "https://s3.amazonaws.com/resy.com/images/venue/1/1.jpg"        |
+    |     ],                                                                  |
+    |     "location": {                                                       |
+    |         "city": "New York",                                             |
+    |         "latitude": 40.745812,                                          |
+    |         "longitude": -73.9822091,                                       |
+    |         "neighborhood": "Flatiron",                                     |
+    |         "time_zone": "EST5EDT"                                          |
+    |     },                                                                  |
+    |     "name": "Test Venue",                                               |
+    |     "price_range_id": 4,                                                |
+    |     "type": "Vegan",                                                    |
+    |     "web_link": "https://resy.com/link?venue_id=1"                      |
+    |   }                                                                     |
+    | ]                                                                       |
+    +-------------------------------------------------------------------------+
+
 # /1/venues/top
 
 ### GET
